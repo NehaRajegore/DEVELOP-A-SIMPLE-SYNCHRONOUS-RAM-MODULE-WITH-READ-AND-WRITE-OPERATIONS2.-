@@ -28,3 +28,5 @@ Testing & Validation
 Testbench Generates a Clock Signal to drive the synchronous RAM.
 Write Data to Specific Addresses, then read back and verify correctness.
 Observe Outputs in Waveforms or Console to confirm expected behavior.
+
+#output of task: DEVELOP-A-SIMPLE-SYNCHRONOUS-RAM-MODULE-WITH-READ-AND-WRITE-OPERATIONS2.--main.zip
