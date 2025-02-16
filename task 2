@@ -1,0 +1,30 @@
+COMPANY: CODTECH IT SOLUTIONS 
+NAME: NEHA NARAYAN RAJEGORE
+INTERN ID:CT08JTK
+DOMAIN:VLSI (Very Large Scale Integration)
+BATCH DURATION:JANUARY30TH,2025 TO MARCH 1ST,2025 
+MANTOR NAME:NEELA SANTHOSH KUMAR
+DESCRIPTION OF TASK:In VLSI The goal of this task is to develop a simple Synchronous RAM (Random Access Memory) module in Verilog that supports both read and write operations. The RAM should be synchronized with a clock signal to ensure data is written and read at specific clock edges.
+Deliverables
+Synchronous RAM Verilog Code
+A parameterized RAM module with configurable address and data width.
+A memory array to store data.
+Synchronous read and write operations controlled by a clock signal.
+Testbench
+A test environment to simulate the RAM module.
+Generates clock signals.
+Performs read and write operations.
+Verifies correct data storage and retrieval.
+Simulation Results
+Demonstrates that the RAM operates correctly.
+Shows waveforms or printed outputs confirming expected behavior.
+Functionality Requirements
+Clock-based Operation: Data should only be written or read on the rising edge of the clock (clk).
+Write Operation: When we (write enable) is high, data from din should be stored at the address addr.
+Read Operation: The stored value should be available on dout on every clock cycle.
+Memory Array: The RAM should be implemented as an array of registers.
+Parameterization: The address width (ADDR_WIDTH) and data width (DATA_WIDTH) should be configurable.
+Testing & Validation
+Testbench Generates a Clock Signal to drive the synchronous RAM.
+Write Data to Specific Addresses, then read back and verify correctness.
+Observe Outputs in Waveforms or Console to confirm expected behavior.
